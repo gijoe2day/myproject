@@ -4,14 +4,19 @@
   border-style: border-box;
 }
 
-body {
+.homepage {
+  background-image: url(/Assets/header-background-mobile.svg);
   width: 375px;
+  height: 718px;
   left: 0;
   right: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-header{
-  background-image: url(/Assets/header-background-mobile.svg);
+/* top header css */
+navbar {
   display: flex;
   justify-content: space-around;
 }
@@ -27,4 +32,138 @@ header{
 .logo-img {
   width: 76px;
   height: 20px;
+}
+
+/*secondary header css */
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text {
+  width: 327px;
+  height: 150px;
+  margin-top: 120px;
+  left: 24px;
+  font-weight: 700;
+  line-height: 52px;
+  font-size: 40px;
+  
+}
+
+.secondary-text {
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 327px;
+}
+
+/*connect section css */
+
+.social-container {
+    width: 327px;
+    margin-left: 24px;
+}
+
+.connect-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  width: 117px;
+  height: 24px;
+  margin: 15px 0;
+  color: #7F8CFF;
+}
+
+/* rectangle & ellipse images */
+
+.rectangle6 {
+    position: absolute;
+    width: 51.99px;
+    height: 9.3px;
+    left: -34px;
+    top: 141.49px;
+}
+
+.rectangle7 {
+    position: absolute;
+    width: 26.46px;
+    height: 4.73px;
+    left: 127.18px;
+    top: 151.59px;
+}
+
+.rectangle4 {
+  position: absolute;
+  width: 95.58px;
+  height: 22.02px;
+  left: 294px;
+  top: 165.79px;
+}
+
+.ellipse11 {
+    position: absolute;
+    width: 38.5px;
+    height: 19.25px;
+    left: 16.04px;
+    top: 161.47px;
+}
+
+.ellipse5 {
+    position: absolute;
+    width: 11px;
+    height: 10px;
+    left: 132.98px;
+    top: 155.81px;
+}
+
+.ellipse8 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 214px;
+    top: 110px;
+}
+
+.ellipse3{
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    left: 323px;
+    top: 152.24px;
+}
+
+.ellipse12{
+    position: absolute;
+width: 24.14px;
+height: 12.07px;
+left: 341.76px;
+top: 546.69px;
+}
+
+.ellipse13 {
+    position: absolute;
+width: 30.1px;
+height: 30.1px;
+left: 332.18px;
+top: 540.44px;
+}
+
+.ellipse4 {
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 237px;
+top: 657.1px;
+}
+
+.rectangle5 {
+    position: absolute;
+width: 68.06px;
+height: 12.18px;
+left: 191.82px;
+top: 653px;
 }
