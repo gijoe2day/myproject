@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+}
+
+body {
+  width: 375px;
+  left: 0;
+  right: 0;
+}
+
+header{
+  background-image: url(/Assets/header-background-mobile.svg);
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.menu-icon {
+    margin-top: 60px;
+}
+
+.logo-img {
+  width: 76px;
+  height: 20px;
+}
