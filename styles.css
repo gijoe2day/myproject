@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 @font-face {
-    font-family: Poppins;
-    src: url(./Assets/Poppins/Poppins-Regular.ttf);
+  font-family: Poppins;
+  src: url(./Assets/Poppins/Poppins-Regular.ttf);
 }
 
 * {
@@ -20,11 +20,12 @@
   font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: column;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 /* top header css */
-navbar {
+
+nav {
   display: flex;
   justify-content: space-between;
 }
@@ -44,7 +45,8 @@ navbar {
   height: 20px;
 }
 
-/*secondary header css */
+/* secondary header css */
+
 .text-container {
   display: flex;
   flex-direction: column;
@@ -69,11 +71,10 @@ navbar {
   line-height: 24px;
   width: 327px;
   margin-top: 8%;
-  font-family: 'Poppins';
   font-style: normal;
 }
 
-/*connect section css */
+/* connect section css */
 
 .social-container {
   width: 327px;
@@ -89,14 +90,12 @@ navbar {
   width: 117px;
   height: 24px;
   margin: 15px 0;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
-
 
 .connect-icons img {
   margin-right: 5%;
 }
-
 
 /* rectangle & ellipse images */
 
@@ -107,7 +106,7 @@ navbar {
   left: 294px;
   top: 140.79px;
   transform: rotate(-30deg);
-  background-color: #EBEBFF;;
+  background-color: #ebebff;
 }
 
 .rectangle5 {
@@ -117,7 +116,7 @@ navbar {
   left: 191.82px;
   top: 669px;
   transform: rotate(23.34deg);
-  background-color: #EBEBFF;
+  background-color: #ebebff;
 }
 
 .rectangle6 {
@@ -127,7 +126,7 @@ navbar {
   left: -34px;
   top: 141.49px;
   transform: rotate(-46.14deg);
-  background-color: #EBEBFF;
+  background-color: #ebebff;
 }
 
 .rectangle7 {
@@ -139,7 +138,7 @@ navbar {
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
 
-.ellipse3{
+.ellipse3 {
   position: absolute;
   width: 105px;
   height: 105px;
@@ -180,8 +179,7 @@ navbar {
   top: 161.47px;
 }
 
-
-.ellipse12{
+.ellipse12 {
   position: absolute;
   width: 24.14px;
   height: 12.07px;
@@ -214,6 +212,3 @@ navbar {
   left: 53px;
   top: 645px;
 }
-
-
-
