@@ -20,7 +20,7 @@ header {
 }
 
 .homepage {
-  background-image: url(/Assets/header-shapes-mobile.png);
+  background-image: url(/Assets/header-shapes-mobile.png), url(/Assets/header-background-mobile.png);
   width: 375px;
   height: 718px;
   left: 0;
