@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #e5e5e5;
+}
+
 header {
   width: 375px;
 }
@@ -116,3 +120,136 @@ nav {
   justify-content: space-between;
   width: 50%;
 }
+
+/* project body */
+
+.work-container {
+  width: 375px;
+  height: 552px;
+  background-color: #e5e5e5;
+}
+
+.work-container-background {
+  margin: auto;
+  width: 327px;
+  background-color: #fff;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "image"
+                        "text";
+  border: 1px solid #dfe1e6;
+  margin-top: 10%;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  height: 552px;
+}
+
+.work-image-container {
+  grid-area: image;
+  margin: auto;
+}
+
+.work-image-container img {
+  width: 295px;
+}
+
+.work-text-container {
+  grid-area: text;
+  margin: auto;
+  background-color: #fff;
+  width: 295px;
+  margin-top: 0;
+}
+
+.work-text-container h1 {
+  font-family: Poppins;
+  font-size: 32px;
+  margin-bottom: 2%;
+}
+
+.work-text-container p {
+  margin-bottom: 4%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+  font-family: Poppins;
+}
+
+.work-text-container ul {
+  margin-top: 1%;
+}
+
+.work-complementary-text {
+  width: 100%;
+  margin-bottom: 7%;
+}
+
+.work-complementary-list {
+  display: flex;
+  width: 100%;
+  font-size: 13px;
+}
+
+.work-complementary-list img {
+  margin-right: .3rem;
+}
+
+.canopy {
+  font-weight: 600;
+  color: #344563; 
+  font-style: normal;
+  font-size: 13px;
+}
+
+.canopy-complement {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.canopy-complement img {
+  margin-right: .7rem;
+}
+
+.work-complementary-text h6 {
+  font-size: 16px;
+  font-family: Poppins;
+}
+
+.work-text-container ul {
+  list-style: none;
+}
+
+.work-text-container ul li {
+  margin-right: 0.7rem;
+}
+
+.buttons-work-container {
+display: flex;
+width: 50%;
+justify-content: space-between;
+margin-bottom: 5%;
+}
+
+.btn-work-style {
+  background-color: #ebebff;
+  border-radius: 5px;
+  padding: 2% 5%;
+  color: #6070ff;
+  font-size: 12px;
+}
+
+.button-work-project {
+  font-size: 12px;
+  font-family: Poppins;
+  color: #396df2;
+  padding: 3% 5%;
+  border-radius: 5px;
+  margin: 3% 0;
+  background-color: #fff;
+  border: 1px solid #396df2;
+}
+
+
+
