@@ -8,11 +8,15 @@
 * {
   margin: 0;
   padding: 0;
-  border-style: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  width: 375px;
 }
 
 .homepage {
-  background-image: url(/Assets/header-background-mobile.svg);
+  background-image: url(/Assets/header-shapes-mobile.png);
   width: 375px;
   height: 718px;
   left: 0;
@@ -21,6 +25,8 @@
   display: flex;
   flex-direction: column;
   background-color: #fff;
+  align-items: center;
+  background-position: center;
 }
 
 /* top header css */
@@ -28,6 +34,8 @@
 nav {
   display: flex;
   justify-content: space-between;
+  height: 50%;
+  align-items: center;
 }
 
 .logo {
@@ -51,12 +59,13 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 6%;
 }
 
 .main-text {
   width: 327px;
   height: 150px;
-  margin-top: 120px;
+  margin-top: 85px;
   left: 24px;
   font-weight: 700;
   line-height: 52px;
@@ -66,19 +75,18 @@ nav {
 }
 
 .secondary-text {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   width: 327px;
   margin-top: 8%;
-  font-style: normal;
 }
 
 /* connect section css */
 
 .social-container {
   width: 327px;
-  margin-left: 24px;
+  margin-left: 3%;
 }
 
 .connect-title {
@@ -95,6 +103,13 @@ nav {
 
 .connect-icons img {
   margin-right: 5%;
+}
+
+.connect-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
 
 /* rectangle & ellipse images */
