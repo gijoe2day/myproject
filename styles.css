@@ -251,5 +251,127 @@ margin-bottom: 5%;
   border: 1px solid #396df2;
 }
 
+/* About Section */
+
+.about-container {
+  width: 375px;
+  height: 1263px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  margin: auto;
+}
+
+.about-text {
+  margin-top: 25%;
+  width: 40%;
+  font-weight: 700;
+  font-family: Poppins;
+}
+
+.about-secondary-text {
+  height: 144px;
+  margin-top: 5%;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Poppins;
+}
+
+.about-social-container {
+  width: 327px;
+  margin: auto;
+}
+
+.about-connect-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  width: 117px;
+  height: 24px;
+  margin: 15px 0;
+  color: #7f8cff;
+}
+
+.button-resume-div {
+  margin: auto;
+  width: 327px;
+  margin-top: 2%;
+}
+
+.button-resume {
+  font-size: 12px;
+  font-family: Poppins;
+  color: #396df2;
+  padding: 3% 5%;
+  border-radius: 5px;
+  margin: 3% 0;
+  background-color: #fff;
+  border: 1px solid #396df2;
+}
+
+.languages {
+  width: 327px;
+  margin: auto;
+}
+
+.language-title {
+  padding: 10% 0;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.languages-list {
+  width: 303px;
+  height: 250px;
+}
+
+.languages-li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  width: 300px;
+  background-color: #f7f7f9;
+  margin-bottom: 3%;
+}
+
+.languages-li img {
+  margin-right: 10%;
+  margin-left: 3%;
+}
+
+.languages-li p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Poppins;
+  line-height: 20px;
+}
+
+.framework-title {
+  padding: 5% 0;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  border-bottom: 1px solid #dfe1e6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.framework-title img {
+  border: 2px solid #ACB7C3;
+  width: 20px;
+  margin-right: 13%;
+}
 
 
