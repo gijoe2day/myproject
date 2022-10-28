@@ -23,8 +23,6 @@ header {
 
 .homepage {
   background-image: url(/Assets/header-shapes-mobile.png);
-  /*width: 23.43em;
-  height: 44.87em; */
   padding: 5%;
   margin: 2%;
   left: 0;
@@ -44,7 +42,6 @@ nav {
   justify-content: space-between;
   height: 50%;
   align-items: flex-start;
-  /*width: 20.43em; */
   padding: 0 3em;
   margin: auto;
 }
@@ -67,7 +64,7 @@ nav {
 
 .logo-img {
   width: 4.75em;
-  height: 1.25em; 
+  height: 1.25em;
 }
 
 /* secondary header css */
@@ -80,8 +77,6 @@ nav {
 }
 
 .main-text {
-  /*width: 7.8em;
-  height: 4em;*/
   margin-top: 2em;
   font-weight: 700;
   line-height: 52px;
@@ -93,15 +88,13 @@ nav {
 .secondary-text {
   font-weight: 400;
   line-height: 24px;
-  /*width: 20.43em;*/
   margin-top: 8%;
 }
 
 /* connect section css */
 
 .social-container {
-  /*width: 20.43em;*/
-  padding: 2em 0em;
+  padding: 2em 0;
   margin-bottom: 2.5em;
   width: 100%;
 }
@@ -110,8 +103,6 @@ nav {
   font-weight: 500px;
   line-height: 24px;
   font-style: normal;
-  /*width: 7.31em;
-  height: 1.5em;*/
   margin: 0.93em 0;
   color: #7f8cff;
 }
@@ -130,14 +121,10 @@ nav {
 /* project body */
 
 .work-container {
-  /*width: 23.43em;
-  height: 34.5em;*/
-
   background-color: #e5e5e5;
 }
 
 .work-container-background {
-  /*width: 20.43em;*/
   background-color: #fff;
   display: grid;
   grid-template-rows: 50% 50%;
@@ -147,8 +134,6 @@ nav {
   border: 1px solid #dfe1e6;
   margin-top: 10%;
   border-radius: 16px;
-  /*height: 34.5em;*/
-  margin-top: 4em;
 }
 
 .work-image-container {
@@ -254,8 +239,6 @@ nav {
 /* About Section */
 
 .about-container {
-  /*width: 23.43em;
-  height: 78.93em;*/
   background-color: #fff;
   margin: auto;
   margin-top: 10%;
@@ -265,7 +248,6 @@ nav {
 .about-text-container {
   display: flex;
   flex-direction: column;
-  /*width: 20.43em;*/
   padding: 0 2.5em;
   margin: auto;
   align-items: flex-start;
@@ -278,14 +260,12 @@ nav {
 }
 
 .about-secondary-text {
-  /*height: 9em;*/
   margin-top: 5%;
   font-weight: 400;
   line-height: 24px;
 }
 
 .about-social-container {
-  /*width: 20.43em;*/
   padding: 0 2.5em;
   margin: auto;
 }
@@ -302,7 +282,6 @@ nav {
 
 .button-resume-div {
   margin: auto;
-  /*width: 20.43em;*/
   padding: 0 2.5em;
   margin-top: 2%;
 }
@@ -318,7 +297,6 @@ nav {
 }
 
 .languages {
-  /*width: 20.43em;*/
   padding: 0 2.5em;
   margin: auto;
   padding-bottom: 15em;
@@ -333,8 +311,6 @@ nav {
 }
 
 .languages-list {
- /* width: 18.93em;
-  height: 21.87em;*/
   padding: 2em 0;
 }
 
@@ -342,8 +318,6 @@ nav {
   list-style: none;
   display: flex;
   align-items: center;
-  /*height: 4.37em;
-  width: 18.75em;*/
   padding: 0.5em;
   background-color: #f7f7f9;
   margin-bottom: 3%;
