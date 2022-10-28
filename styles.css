@@ -31,6 +31,7 @@ header {
   background-color: #fff;
   align-items: center;
   background-position: center;
+  border-radius: 0 0 0 80px;
 }
 
 /* top header css */
@@ -135,12 +136,12 @@ nav {
   background-color: #fff;
   display: grid;
   grid-template-rows: 50% 50%;
-  grid-template-areas: "image"
-                        "text";
+  grid-template-areas: 
+          "image"
+          "text";
   border: 1px solid #dfe1e6;
   margin-top: 10%;
   border-radius: 16px;
-  border: 1px solid #dfe1e6;
   height: 552px;
 }
 
@@ -162,7 +163,7 @@ nav {
 }
 
 .work-text-container h1 {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 32px;
   margin-bottom: 2%;
 }
@@ -173,11 +174,12 @@ nav {
   font-weight: 400;
   line-height: 24px;
   color: #344563;
-  font-family: Poppins;
+  font-family: "Poppins";
 }
 
 .work-text-container ul {
   margin-top: 1%;
+  list-style: none;
 }
 
 .work-complementary-text {
@@ -192,14 +194,14 @@ nav {
 }
 
 .work-complementary-list img {
-  margin-right: .3rem;
+  margin-right: 0.3rem;
 }
 
 .canopy {
-  font-weight: 600;
-  color: #344563; 
-  font-style: normal;
-  font-size: 13px;
+    font-weight: 600;
+    color:#344563;
+    font-style: normal;
+    font-size: 13px;
 }
 
 .canopy-complement {
@@ -209,16 +211,12 @@ nav {
 }
 
 .canopy-complement img {
-  margin-right: .7rem;
+  margin-right: 0.7rem;
 }
 
 .work-complementary-text h6 {
   font-size: 16px;
-  font-family: Poppins;
-}
-
-.work-text-container ul {
-  list-style: none;
+  font-family: "Poppins";
 }
 
 .work-text-container ul li {
@@ -226,10 +224,10 @@ nav {
 }
 
 .buttons-work-container {
-display: flex;
-width: 50%;
-justify-content: space-between;
-margin-bottom: 5%;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-bottom: 5%;
 }
 
 .btn-work-style {
@@ -242,7 +240,7 @@ margin-bottom: 5%;
 
 .button-work-project {
   font-size: 12px;
-  font-family: Poppins;
+  font-family: "Poppins";
   color: #396df2;
   padding: 3% 5%;
   border-radius: 5px;
@@ -259,6 +257,7 @@ margin-bottom: 5%;
   background-color: #fff;
   margin: auto;
   margin-top: 10%;
+  border-radius: 0 80px 0 0px;
 }
 
 .about-text-container {
@@ -266,13 +265,14 @@ margin-bottom: 5%;
   flex-direction: column;
   width: 327px;
   margin: auto;
+  align-items: flex-start;
 }
 
 .about-text {
   margin-top: 25%;
   width: 40%;
   font-weight: 700;
-  font-family: Poppins;
+  font-family: "Poppins";
 }
 
 .about-secondary-text {
@@ -280,7 +280,7 @@ margin-bottom: 5%;
   margin-top: 5%;
   font-weight: 400;
   line-height: 24px;
-  font-family: Poppins;
+  font-family: "Poppins";
 }
 
 .about-social-container {
@@ -308,7 +308,7 @@ margin-bottom: 5%;
 
 .button-resume {
   font-size: 12px;
-  font-family: Poppins;
+  font-family: "Poppins";
   color: #396df2;
   padding: 3% 5%;
   border-radius: 5px;
@@ -324,7 +324,7 @@ margin-bottom: 5%;
 
 .language-title {
   padding: 10% 0;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -353,13 +353,13 @@ margin-bottom: 5%;
 .languages-li p {
   font-size: 12px;
   font-weight: 500;
-  font-family: Poppins;
+  font-family: "Poppins";
   line-height: 20px;
 }
 
 .framework-title {
   padding: 5% 0;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -369,9 +369,8 @@ margin-bottom: 5%;
 }
 
 .framework-title img {
-  border: 2px solid #ACB7C3;
-  width: 20px;
+  width: 8px;
   margin-right: 13%;
+  height: 14px;
+  margin-top: 2%;
 }
-
-
