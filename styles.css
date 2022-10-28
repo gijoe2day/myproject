@@ -14,16 +14,17 @@
 body {
   background-color: #e5e5e5;
   font-family: Poppins, sans-serif;
+  font-size: 16px;
 }
 
 header {
-  width: 375px;
+  width: 23.43em;
 }
 
 .homepage {
-  background-image: url(/Assets/header-shapes-mobile.png), url(/Assets/header-background-mobile.png);
-  width: 375px;
-  height: 718px;
+  background-image: url(/Assets/header-shapes-mobile.png);
+  width: 23.43em;
+  height: 44.87em;
   left: 0;
   right: 0;
   display: flex;
@@ -41,12 +42,12 @@ nav {
   justify-content: space-between;
   height: 50%;
   align-items: flex-start;
-  width: 327px;
+  width: 20.43em;
   margin: auto;
 }
 
 .logo {
-  margin-top: 50px;
+  margin-top: 3.12em;
 }
 
 .logo a {
@@ -58,12 +59,12 @@ nav {
 }
 
 .menu-icon {
-  margin-top: 60px;
+  margin-top: 3.75em;
 }
 
 .logo-img {
-  width: 76px;
-  height: 20px;
+  width: 4.75em;
+  height: 1.25em;
 }
 
 /* secondary header css */
@@ -75,38 +76,36 @@ nav {
 }
 
 .main-text {
-  width: 327px;
-  height: 150px;
-  margin-top: 85px;
+  width: 7.8em;
+  height: 4em;
+  margin-top: 2.50em;
   font-weight: 700;
   line-height: 52px;
-  font-size: 40px;
   z-index: 1;
   text-align: left;
+  font-size: 2.5em;
 }
 
 .secondary-text {
   font-weight: 400;
-  font-size: 16px;
   line-height: 24px;
-  width: 327px;
+  width: 20.43em;
   margin-top: 8%;
 }
 
 /* connect section css */
 
 .social-container {
-  width: 327px;
+  width: 20.43em;
 }
 
 .connect-title {
   font-weight: 500px;
-  font-size: 16px;
   line-height: 24px;
   font-style: normal;
-  width: 117px;
-  height: 24px;
-  margin: 15px 0;
+  width: 7.31em;
+  height: 1.5em;
+  margin: 0.93em 0;
   color: #7f8cff;
 }
 
@@ -124,14 +123,14 @@ nav {
 /* project body */
 
 .work-container {
-  width: 375px;
-  height: 552px;
+  width: 23.43em;
+  height: 34.5em;
   background-color: #e5e5e5;
 }
 
 .work-container-background {
   margin: auto;
-  width: 327px;
+  width: 20.43em;
   background-color: #fff;
   display: grid;
   grid-template-rows: 50% 50%;
@@ -141,7 +140,7 @@ nav {
   border: 1px solid #dfe1e6;
   margin-top: 10%;
   border-radius: 16px;
-  height: 552px;
+  height: 34.5em;
 }
 
 .work-image-container {
@@ -150,25 +149,25 @@ nav {
 }
 
 .work-image-container img {
-  width: 295px;
+  width: 18.43em;
 }
 
 .work-text-container {
   grid-area: text;
   margin: auto;
   background-color: #fff;
-  width: 295px;
+  width: 18.43em;
   margin-top: 0;
 }
 
 .work-text-container h1 {
-  font-size: 32px;
+  font-size: 2rem;
   margin-bottom: 2%;
 }
 
 .work-text-container p {
   margin-bottom: 4%;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   color: #344563;
@@ -187,7 +186,7 @@ nav {
 .work-complementary-list {
   display: flex;
   width: 100%;
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 .work-complementary-list img {
@@ -198,21 +197,17 @@ nav {
   font-weight: 600;
   color: #344563;
   font-style: normal;
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 .canopy-complement {
   color: #7a869a;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 0.8rem;
 }
 
 .canopy-complement img {
   margin-right: 0.7rem;
-}
-
-.work-complementary-text h6 {
-  font-size: 16px;
 }
 
 .work-text-container ul li {
@@ -231,11 +226,11 @@ nav {
   border-radius: 5px;
   padding: 2% 5%;
   color: #6070ff;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .button-work-project {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #396df2;
   padding: 3% 5%;
   border-radius: 5px;
@@ -244,11 +239,16 @@ nav {
   border: 1px solid #396df2;
 }
 
+.button-work-project:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
 /* About Section */
 
 .about-container {
-  width: 375px;
-  height: 1263px;
+  width: 23.43em;
+  height: 78.93em;
   background-color: #fff;
   margin: auto;
   margin-top: 10%;
@@ -258,48 +258,47 @@ nav {
 .about-text-container {
   display: flex;
   flex-direction: column;
-  width: 327px;
+  width: 20.43em;
   margin: auto;
   align-items: flex-start;
 }
 
 .about-text {
   margin-top: 25%;
-  width: 40%;
+  width: 30%;
   font-weight: 700;
 }
 
 .about-secondary-text {
-  height: 144px;
+  height: 9em;
   margin-top: 5%;
   font-weight: 400;
   line-height: 24px;
 }
 
 .about-social-container {
-  width: 327px;
+  width: 20.43em;
   margin: auto;
 }
 
 .about-connect-title {
   font-weight: 500px;
-  font-size: 16px;
   line-height: 24px;
   font-style: normal;
-  width: 117px;
-  height: 24px;
-  margin: 15px 0;
+  width: 7.3em;
+  height: 1.5em;
+  margin: 0.93em 0;
   color: #7f8cff;
 }
 
 .button-resume-div {
   margin: auto;
-  width: 327px;
+  width: 20.43em;
   margin-top: 2%;
 }
 
 .button-resume {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #396df2;
   padding: 3% 5%;
   border-radius: 5px;
@@ -309,28 +308,29 @@ nav {
 }
 
 .languages {
-  width: 327px;
+  width: 20.43em;
   margin: auto;
 }
 
 .language-title {
   padding: 10% 0;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 24px;
+  list-style: none;
 }
 
 .languages-list {
-  width: 303px;
-  height: 250px;
+  width: 18.93em;
+  height: 21.87em;
 }
 
 .languages-li {
   list-style: none;
   display: flex;
   align-items: center;
-  height: 70px;
-  width: 300px;
+  height: 4.37em;
+  width: 18.75em;
   background-color: #f7f7f9;
   margin-bottom: 3%;
 }
@@ -341,7 +341,7 @@ nav {
 }
 
 .languages-li p {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   line-height: 20px;
 }
@@ -349,7 +349,7 @@ nav {
 .framework-title {
   padding: 5% 0;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 24px;
   border-bottom: 1px solid #dfe1e6;
   display: flex;
@@ -357,8 +357,8 @@ nav {
 }
 
 .framework-title img {
-  width: 8px;
+  width: 0.5em;
   margin-right: 13%;
-  height: 14px;
+  height: 0.8em;
   margin-top: 2%;
 }
