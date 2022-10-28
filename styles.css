@@ -13,6 +13,7 @@
 
 body {
   background-color: #e5e5e5;
+  font-family: Poppins, sans-serif;
 }
 
 header {
@@ -25,7 +26,6 @@ header {
   height: 718px;
   left: 0;
   right: 0;
-  font-family: Poppins, sans-serif;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -100,7 +100,6 @@ nav {
 }
 
 .connect-title {
-  font-family: 'Poppins', sans-serif;
   font-weight: 500px;
   font-size: 16px;
   line-height: 24px;
@@ -136,9 +135,9 @@ nav {
   background-color: #fff;
   display: grid;
   grid-template-rows: 50% 50%;
-  grid-template-areas: 
-          "image"
-          "text";
+  grid-template-areas:
+    "image"
+    "text";
   border: 1px solid #dfe1e6;
   margin-top: 10%;
   border-radius: 16px;
@@ -163,7 +162,6 @@ nav {
 }
 
 .work-text-container h1 {
-  font-family: "Poppins";
   font-size: 32px;
   margin-bottom: 2%;
 }
@@ -174,7 +172,6 @@ nav {
   font-weight: 400;
   line-height: 24px;
   color: #344563;
-  font-family: "Poppins";
 }
 
 .work-text-container ul {
@@ -198,10 +195,10 @@ nav {
 }
 
 .canopy {
-    font-weight: 600;
-    color:#344563;
-    font-style: normal;
-    font-size: 13px;
+  font-weight: 600;
+  color: #344563;
+  font-style: normal;
+  font-size: 13px;
 }
 
 .canopy-complement {
@@ -216,7 +213,6 @@ nav {
 
 .work-complementary-text h6 {
   font-size: 16px;
-  font-family: "Poppins";
 }
 
 .work-text-container ul li {
@@ -240,7 +236,6 @@ nav {
 
 .button-work-project {
   font-size: 12px;
-  font-family: "Poppins";
   color: #396df2;
   padding: 3% 5%;
   border-radius: 5px;
@@ -257,7 +252,7 @@ nav {
   background-color: #fff;
   margin: auto;
   margin-top: 10%;
-  border-radius: 0 80px 0 0px;
+  border-radius: 0 80px 0 0;
 }
 
 .about-text-container {
@@ -272,7 +267,6 @@ nav {
   margin-top: 25%;
   width: 40%;
   font-weight: 700;
-  font-family: "Poppins";
 }
 
 .about-secondary-text {
@@ -280,7 +274,6 @@ nav {
   margin-top: 5%;
   font-weight: 400;
   line-height: 24px;
-  font-family: "Poppins";
 }
 
 .about-social-container {
@@ -289,7 +282,6 @@ nav {
 }
 
 .about-connect-title {
-  font-family: 'Poppins', sans-serif;
   font-weight: 500px;
   font-size: 16px;
   line-height: 24px;
@@ -308,7 +300,6 @@ nav {
 
 .button-resume {
   font-size: 12px;
-  font-family: "Poppins";
   color: #396df2;
   padding: 3% 5%;
   border-radius: 5px;
@@ -324,7 +315,6 @@ nav {
 
 .language-title {
   padding: 10% 0;
-  font-family: "Poppins";
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -353,13 +343,11 @@ nav {
 .languages-li p {
   font-size: 12px;
   font-weight: 500;
-  font-family: "Poppins";
   line-height: 20px;
 }
 
 .framework-title {
   padding: 5% 0;
-  font-family: "Poppins";
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
