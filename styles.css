@@ -23,6 +23,7 @@ header {
 
 .homepage {
   background-image: url(/Assets/header-shapes-mobile.png);
+  background-repeat: no-repeat;
   padding: 5%;
   margin: 2%;
   left: 0;
@@ -299,7 +300,7 @@ nav {
 .languages {
   padding: 0 2.5em;
   margin: auto;
-  padding-bottom: 15em;
+  padding-bottom: 5em;
 }
 
 .language-title {
@@ -349,4 +350,83 @@ nav {
   margin-right: 13%;
   height: 0.8em;
   margin-top: 2%;
+}
+
+.contact-section {
+  background-color: white;
+}
+
+.contact-form {
+  background-color: #6070ff;
+  background-image: url(/Assets/contact-form-shapes-mobile.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 2.1em;
+  padding-bottom: 3em;
+  border-radius: 80px 0 0 0;
+  background-position: 100% 90%;
+}
+
+.contact-form h6 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+  margin: auto;
+}
+
+.contact-form p {
+  font-size: 20px;
+  line-height: 1.75em;
+  color: #ebebff;
+  margin: auto;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.name-input,
+.email-input {
+  background-color: #ffffff;
+  border: 1px solid #cfd8dc;
+  height: 3em;
+  width: 100%;
+  margin: 0.5em 0;
+  border-radius: 5px;
+}
+
+.body-input {
+  background-color: #ffffff;
+  border: 1px solid #cfd8dc;
+  height: 6em;
+  width: 100%;
+  margin: 0.5em 0;
+  border-radius: 5px;
+}
+
+fieldset {
+  border: 0px solid #6070ff;
+}
+
+.form-btn-submit {
+  padding: 0.75em 1em;
+  background-color: #ffffff;
+  color: #6070ff;
+  margin-top: 1em;
+  border: 0px solid;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  padding-left: 1em;
+  color: black
+}
+
+textarea::placeholder {
+  color: gray;
+  padding-left: 1em;
+  padding-top: 0.8em;
 }
