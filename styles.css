@@ -23,7 +23,6 @@ header {
 
 .homepage {
   background-image: url(/Assets/header-shapes-mobile.png);
-  background-repeat: no-repeat;
   padding: 5%;
   margin: 2%;
   left: 0;
@@ -300,7 +299,7 @@ nav {
 .languages {
   padding: 0 2.5em;
   margin: auto;
-  padding-bottom: 5em;
+  padding-bottom: 15em;
 }
 
 .language-title {
