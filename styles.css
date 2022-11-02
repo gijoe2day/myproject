@@ -17,14 +17,19 @@ body {
   font-size: 16px;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
-  width: 23.43em;
+  width: 100%;
 }
 
 .homepage {
   background-image: url(/Assets/header-shapes-mobile.png);
   padding: 5%;
-  margin: 2%;
+  margin: 2% 0;
   left: 0;
   right: 0;
   display: flex;
@@ -40,26 +45,39 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  height: 50%;
   align-items: flex-start;
-  padding: 0 3em;
+  padding: 0 2em;
   margin: auto;
+  margin-top: 2em;
 }
 
-.logo {
-  margin-top: 3.5em;
+.nav-menu {
+  display: flex;
+}
+
+.nav-pages {
+  list-style: none;
+  display: none;
+  justify-content: space-around;
+  padding-right: 50%;
+}
+
+.nav-pages li {
+  margin-right: 35%;
+  padding-right: 20%;
 }
 
 .logo a {
   text-decoration: none;
 }
 
-.logo h1 {
-  color: #6070ff;
+.nav-pages li a {
+  text-decoration: none;
+  color: black;
 }
 
-.menu-icon {
-  margin-top: 3.75em;
+.logo h1 {
+  color: #6070ff;
 }
 
 .logo-img {
@@ -126,30 +144,44 @@ nav {
 
 .work-container-background {
   background-color: #fff;
-  display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-areas:
-    "image"
-    "text";
+  display: flex;
+  flex-direction: column;
   border: 1px solid #dfe1e6;
   margin-top: 10%;
   border-radius: 16px;
 }
 
 .work-image-container {
-  grid-area: image;
-  margin: 2em auto;
+  padding: 1em;
 }
 
 .work-image-container img {
-  width: 18.43em;
+  width: 100%;
 }
 
 .work-text-container {
-  grid-area: text;
+  display: grid;
+  grid-template-rows: 30% 30% 40%;
+  grid-template-areas:
+    "title"
+    "body"
+    "button";
   margin: auto;
   background-color: #fff;
   padding: 0 2.5em;
+}
+
+.card-title {
+  grid-area: title;
+}
+
+.card-body {
+  grid-area: body;
+}
+
+.card-button {
+  grid-area: button;
+  margin-top: 1em;
 }
 
 .work-text-container h1 {
@@ -202,6 +234,10 @@ nav {
   margin-right: 0.7rem;
 }
 
+.connect-icons li {
+  margin-right: 1.5em;
+}
+
 .work-text-container ul li {
   margin-right: 0.7rem;
 }
@@ -226,7 +262,7 @@ nav {
   color: #396df2;
   padding: 3% 5%;
   border-radius: 5px;
-  margin: 3% 0;
+  margin: 1.5em 0;
   background-color: #fff;
   border: 1px solid #396df2;
 }
@@ -241,7 +277,6 @@ nav {
 .about-container {
   background-color: #fff;
   margin: auto;
-  margin-top: 10%;
   border-radius: 0 80px 0 0;
 }
 
@@ -249,25 +284,21 @@ nav {
   display: flex;
   flex-direction: column;
   padding: 0 2.5em;
-  margin: auto;
-  align-items: flex-start;
+  margin-left: 2.5em;
 }
 
 .about-text {
-  margin-top: 25%;
+  margin-top: 18%;
   width: 30%;
   font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1em;
 }
 
 .about-secondary-text {
   margin-top: 5%;
   font-weight: 400;
   line-height: 24px;
-}
-
-.about-social-container {
-  padding: 0 2.5em;
-  margin: auto;
 }
 
 .about-connect-title {
@@ -281,15 +312,13 @@ nav {
 }
 
 .button-resume-div {
-  margin: auto;
-  padding: 0 2.5em;
-  margin-top: 2%;
+  margin-top: 1em;
 }
 
 .button-resume {
   font-size: 0.75rem;
   color: #396df2;
-  padding: 3% 5%;
+  padding: 1em 2em;
   border-radius: 5px;
   margin: 3% 0;
   background-color: #fff;
@@ -312,6 +341,11 @@ nav {
 
 .languages-list {
   padding: 2em 0;
+  display: inline-block;
+}
+
+.language-list-header {
+  display: none;
 }
 
 .languages-li {
@@ -321,6 +355,7 @@ nav {
   padding: 0.5em;
   background-color: #f7f7f9;
   margin-bottom: 3%;
+  padding-right: 10em;
 }
 
 .languages-li img {
@@ -428,4 +463,187 @@ textarea::placeholder {
   color: gray;
   padding-left: 1em;
   padding-top: 0.8em;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    padding-left: 2.5em;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+
+  .nav-pages {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50%;
+  }
+
+  .menu-icon img {
+    display: none;
+  }
+
+  .homepage {
+    background-image: url(/Assets/Desktop/Header-desktop_bg.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .text-container {
+    align-items: flex-start;
+  }
+
+  .main-text {
+    padding-right: 40%;
+    font-size: 3em;
+    padding-left: 1em;
+  }
+
+  .secondary-text {
+    font-size: 1.25em;
+    padding: 0 2.5em;
+  }
+
+  .social-container {
+    padding-right: 50%;
+    margin-left: 6em;
+    padding-bottom: 4em;
+  }
+
+  .work-container {
+    margin: 0 5%;
+  }
+
+  .work-container-background {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .multi-post {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .work-image-container {
+    margin: auto;
+  }
+
+  .work-image-container img {
+    width: 100%;
+  }
+
+  .work-text-container {
+    padding: 1em;
+    margin-left: 2em;
+  }
+
+  .work-text-container h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-text-container {
+    width: 45%;
+    padding: 0;
+    line-height: 1.5em;
+    padding-left: 2em;
+  }
+
+  .languages {
+    width: 50%;
+  }
+
+  .languages-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .language-list-header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .languages-li {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    margin-right: 1em;
+    padding-right: 2em;
+  }
+
+  .languages-li img {
+    padding-bottom: 0.2em;
+  }
+
+  .language-list-header li img {
+    padding-right: 3.5em;
+  }
+
+  .language-list-body {
+    display: flex;
+  }
+
+  .contact-form {
+    padding: 0 30%;
+    background-image: url(/Assets/Desktop/desktop_contact\ form_background_shapes.png);
+    background-repeat: no-repeat;
+  }
+
+  .form-btn-submit {
+    display: block;
+    margin: auto;
+    margin-bottom: 5em;
+  }
+
+  .card-nature {
+    order: 1;
+  }
+
+  .card-professional-art {
+    order: 2;
+  }
+
+  .card-availability {
+    order: 4;
+  }
+
+  .card-orangeimage {
+    order: 3;
+  }
+
+  .card-about {
+    order: 5;
+    margin-top: 5%;
+  }
+
+  .contact-section {
+    order: 6;
+  }
+
+  .card-orangeimage button {
+    background-color: #4053fc;
+    color: white;
+  }
+
+  .button-work-project:hover {
+    font-size: 0.75rem;
+    color: #396df2;
+    padding: 3% 5%;
+    border-radius: 5px;
+    margin: 1.5em 0;
+    background-color: #fff;
+    border: 1px solid #396df2;
+  }
 }
