@@ -17,6 +17,11 @@ body {
   font-size: 16px;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   width: 100%;
 }
@@ -45,6 +50,24 @@ nav {
   padding: 0 2em;
   margin: auto;
   margin-top: 2em;
+}
+
+.nav-pages {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 50%;
+  display: none;
+}
+
+.nav-pages li {
+  margin-right: 35%;
+  padding-right: 20%;
+}
+
+.nav-pages li a {
+  text-decoration: none;
+  color: black;
 }
 
 .logo a {
@@ -119,30 +142,43 @@ nav {
 
 .work-container-background {
   background-color: #fff;
-  display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-areas:
-    "image"
-    "text";
+  display: flex;
+  flex-direction: column;
   border: 1px solid #dfe1e6;
   margin-top: 10%;
   border-radius: 16px;
 }
 
 .work-image-container {
-  grid-area: image;
-  margin: 2em auto;
+  padding: 1em;
 }
 
 .work-image-container img {
-  width: 18.43em;
+  width: 100%
 }
 
 .work-text-container {
-  grid-area: text;
+  display: grid;
+  grid-template-rows: 30% 30% 40%;
+  grid-template-areas: "title"
+                       "body"
+                       "button";
   margin: auto;
   background-color: #fff;
   padding: 0 2.5em;
+}
+
+.card-title {
+  grid-area: title;
+}
+
+.card-body {
+  grid-area: body;
+}
+
+.card-button {
+  grid-area: button;
+  margin-top: 1em;
 }
 
 .work-text-container h1 {
@@ -234,7 +270,6 @@ nav {
 .about-container {
   background-color: #fff;
   margin: auto;
-  margin-top: 10%;
   border-radius: 0 80px 0 0;
 }
 
@@ -242,14 +277,15 @@ nav {
   display: flex;
   flex-direction: column;
   padding: 0 2.5em;
-  margin: auto;
-  align-items: flex-start;
+  margin-left: 2.5em;
 }
 
 .about-text {
-  margin-top: 25%;
+  margin-top: 18%;
   width: 30%;
   font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1em;
 }
 
 .about-secondary-text {
@@ -426,6 +462,14 @@ textarea::placeholder {
     padding-left: 2.5em;
   }
 
+  .nav-pages {
+  display: block;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 50%;
+  }
+
   .menu-icon img {
     display: none;
   }
@@ -441,7 +485,7 @@ textarea::placeholder {
 }
 
   .main-text {
-    padding-right: 50%;
+    padding-right: 40%;
     font-size: 3em;
     padding-left: 1em;
   }
@@ -459,25 +503,28 @@ textarea::placeholder {
 
   .work-container {
     margin: 10%;
-    height: 31em;
   }
 
   .work-container-background {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: "image text";
-    padding: 3em 0;
-    height: 28em;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .multi-post {
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   .work-image-container {
-    grid-area: image;
-    margin-left: 2em;
-    background-color: gray;
+    margin: auto;
+  }
+
+  .work-image-container img {
+    width: 100%;
   }
 
   .work-text-container {
-    grid-area: text;
+    padding: 1em;
   }
 
   .work-text-container h2 {
@@ -501,6 +548,16 @@ textarea::placeholder {
 
   .languages-list ul {
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .languages-li {
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    display: inline;
+    
   }
 
   .language-title {
@@ -511,6 +568,33 @@ textarea::placeholder {
     padding: 0 15em;
   }
 
- 
+ .form-btn-submit {
+  display: block;
+  margin: auto;
+ }
+
+ .card-nature {
+  order: 1;
+ }
+
+ .card-professional-art {
+  order: 2;
+ }
+
+ .card-availability {
+  order: 3;
+ }
+
+ .card-orangeimage {
+  order: 4;
+ }
+
+ .card-about {
+  order: 5;
+ }
+
+ .contact-section {
+  order: 6;
+ }
 
 }
