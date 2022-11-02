@@ -18,14 +18,14 @@ body {
 }
 
 header {
-  width: 23.43em;
+  width: 100%;
 }
 
 .homepage {
   background-image: url(/Assets/header-shapes-mobile.png);
   background-repeat: no-repeat;
   padding: 5%;
-  margin: 2%;
+  margin: 2% 0;
   left: 0;
   right: 0;
   display: flex;
@@ -41,14 +41,10 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  height: 50%;
   align-items: flex-start;
-  padding: 0 3em;
+  padding: 0 2em;
   margin: auto;
-}
-
-.logo {
-  margin-top: 3.5em;
+  margin-top: 2em;
 }
 
 .logo a {
@@ -57,10 +53,6 @@ nav {
 
 .logo h1 {
   color: #6070ff;
-}
-
-.menu-icon {
-  margin-top: 3.75em;
 }
 
 .logo-img {
@@ -266,11 +258,6 @@ nav {
   line-height: 24px;
 }
 
-.about-social-container {
-  padding: 0 2.5em;
-  margin: auto;
-}
-
 .about-connect-title {
   font-weight: 500px;
   line-height: 24px;
@@ -281,16 +268,18 @@ nav {
   color: #7f8cff;
 }
 
+.connect-icons li {
+  margin-right: 1.5em;
+}
+
 .button-resume-div {
-  margin: auto;
-  padding: 0 2.5em;
-  margin-top: 2%;
+  margin-top: 1em;
 }
 
 .button-resume {
   font-size: 0.75rem;
   color: #396df2;
-  padding: 3% 5%;
+  padding: 1em 2em;
   border-radius: 5px;
   margin: 3% 0;
   background-color: #fff;
@@ -429,4 +418,99 @@ textarea::placeholder {
   color: gray;
   padding-left: 1em;
   padding-top: 0.8em;
+}
+
+@media only screen and (min-width: 768px) {
+
+  header {
+    padding-left: 2.5em;
+  }
+
+  .menu-icon img {
+    display: none;
+  }
+
+  .homepage {
+    background-image: url(/Assets/Desktop/Header-desktop_bg.png);
+    background-repeat: no-repeat;
+    align-items: center;
+  }
+
+.text-container {
+  align-items: flex-start;
+}
+
+  .main-text {
+    padding-right: 50%;
+    font-size: 3em;
+    padding-left: 1em;
+  }
+
+  .secondary-text {
+    font-size: 1.25em;
+    padding: 0 2.5em;
+  }
+
+  .social-container {
+    padding-right: 50%;
+    margin-left: 6em;
+    padding-bottom: 4em;
+  }
+
+  .work-container {
+    margin: 10%;
+    height: 31em;
+  }
+
+  .work-container-background {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "image text";
+    padding: 3em 0;
+    height: 28em;
+  }
+
+  .work-image-container {
+    grid-area: image;
+    margin-left: 2em;
+    background-color: gray;
+  }
+
+  .work-text-container {
+    grid-area: text;
+  }
+
+  .work-text-container h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-text-container {
+    width: 45%;
+    padding: 0;
+    line-height: 1.5em;
+  }
+
+  .languages {
+    width: 50%;
+  }
+
+  .languages-list ul {
+    display: flex;
+  }
+
+  .language-title {
+    padding-right: 5em;
+  }
+
+  .contact-form {
+    padding: 0 15em;
+  }
+
+ 
+
 }
