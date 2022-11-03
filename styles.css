@@ -270,6 +270,8 @@ nav {
 .button-work-project:hover {
   background-color: #396df2;
   color: #fff;
+  transform: scale(1.1);
+  transition-duration: 0.5s;
 }
 
 /* About Section */
