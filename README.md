@@ -4,6 +4,8 @@
 
 Myproject is a demo of webpage catalog using html and css. Is built with mobile first best practices.
 
+To check online visit: [My Project](https://gjuliao.github.io/myproject/)
+
 **Built with**
 
 ---
