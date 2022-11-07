@@ -488,7 +488,11 @@ textarea::placeholder {
   }
 
   .homepage {
+
     background-image: url(./Assets/Desktop/Header-desktop_bg.png);
+
+   
+
     background-repeat: no-repeat;
     align-items: center;
     margin-top: 0;
@@ -599,7 +603,9 @@ textarea::placeholder {
 
   .contact-form {
     padding: 0 30%;
+
     background-image: url(./Assets/Desktop/desktop_contact\ form_background_shapes.png);
+
     background-repeat: no-repeat;
   }
 
