@@ -6,6 +6,8 @@ Myproject is a demo of webpage catalog using html and css. Is built with mobile 
 
 To check online visit: [My Project](https://gjuliao.github.io/myproject/)
 
+To review loom introductory video of project: [Loom Video My Project](https://www.loom.com/share/8ec0b8497a9b4e9597cd2ea703445c74)
+
 **Built with**
 
 ---
