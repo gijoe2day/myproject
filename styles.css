@@ -33,6 +33,7 @@ header {
   border: none;
   margin-top: 3px;
 }
+
 .homepage {
   background-image: url(./Assets/header_shapes_mobile.png);
   padding: 5%;
@@ -66,6 +67,10 @@ nav {
   display: none;
   justify-content: space-around;
   padding-right: 50%;
+}
+
+li {
+  list-style-type: none;
 }
 
 .nav-pages li {
@@ -109,17 +114,17 @@ nav {
   mix-blend-mode: multiply;
 }
 
-#text{
+#text {
   position: absolute;
   top: 30%;
   left: 35%;
   font-size: 50px;
   color: white;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   margin: auto;
- 
 }
+
 .close-icon {
   margin-top: 10%;
   margin-left: 90%;
@@ -133,9 +138,6 @@ nav {
   list-style-type: none;
 }
 
-li {
-  list-style-type: none;
-}
 /* secondary header css */
 
 .text-container {
