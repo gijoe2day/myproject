@@ -24,8 +24,15 @@ body {
 
 header {
   width: 100%;
+  top: 0;
+  position: fixed;
 }
 
+.menu-icon {
+  background-color: white;
+  border: none;
+  margin-top: 3px;
+}
 .homepage {
   background-image: url(./Assets/header_shapes_mobile.png);
   padding: 5%;
@@ -46,9 +53,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0 2em;
-  margin: auto;
-  margin-top: 2em;
+  padding: 0.5em 2em;
+  background-color: white;
 }
 
 .nav-menu {
@@ -95,10 +101,12 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #6070FF; /* Black background with opacity */
+  background-color: #5e6eff; /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer; /* Add a pointer on hover */
-  opacity: 0.9;
+  opacity: 99%;
+  backdrop-filter: blur(10px);
+  mix-blend-mode: multiply;
 }
 
 #text{
@@ -110,6 +118,13 @@ nav {
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   margin: auto;
+ 
+}
+.close-icon {
+  margin-top: 10%;
+  margin-left: 90%;
+  background-color: #5e6eff;
+  border: none;
 }
 
 #text a {
@@ -533,6 +548,7 @@ textarea::placeholder {
 
   .text-container {
     align-items: flex-start;
+    margin-top: 5%;
   }
 
   .main-text {
