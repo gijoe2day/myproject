@@ -85,6 +85,42 @@ nav {
   height: 1.25em;
 }
 
+/* Mobile Overlay */
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6070FF; /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  opacity: 0.9;
+}
+
+#text{
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  margin: auto;
+}
+
+#text a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
 /* secondary header css */
 
 .text-container {
