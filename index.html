@@ -131,7 +131,7 @@
                             </div>
                         </div>
                         <div class="card-button">
-                            <button class="button-work-project">SEE PROJECT</button>
+                            <button class="button-work-project" onclick="getProjectOne()">SEE PROJECT</button>
                         </div>
                     </div>
 
@@ -312,9 +312,6 @@
                 
             </div>
 
-
-                
-
                 <div class="languages">
             
                     <div class="languages-list">
@@ -357,7 +354,6 @@
             <div class="contact-form">
                 <h2>Contact me</h2>
                 <p class="contact-me-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-
                 <form name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqbpdge " method="post">
                     <fieldset>
                     <label for="full-name"></label>
@@ -374,7 +370,9 @@
         </section>
         
     </section>
-
+    <section>
+        <div id="output"></div>
+    </section>
     <script src="./script.js"></script>
 </body>
 
