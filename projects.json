@@ -4,43 +4,43 @@
         "name": "Multi Post Story",
         "projectClient": "Canopy",
         "projectInfo": ["Front End Dev", 2022],
-        "image": "Assets/mobile_Snapshoot_1.png",
+        "image": "Assets/Desktop/Tonic_Portfolio.png",
         "technologies": ["html", "css", "javaScript"],
         "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex nulla, convallis vel purus at, aliquet eleifend risus. Nulla maximus dolor mattis, posuere lacus sit amet, facilisis lacus. Duis maximus.",
-        "liveVersionLink": ["See Live", "www.google.com"],
-        "linkToSource": ["See Source", "www.google.com"]
+        "liveVersionLink": "https://gjuliao.github.io/myproject/",
+        "linkToSource": "https://github.com/gjuliao/myproject"
     },
     {
         "id": 2,
         "name": "Avocado",
         "projectClient": "Canopy",
         "projectInfo": ["Back End Dev", 2015],
-        "image": "Assets/mobile_Snapshoot_1.png",
+        "image": "Assets/Desktop/Professional_art.png",
         "technologies": ["html", "css", "javaScript"],
         "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex nulla, convallis vel purus at, aliquet eleifend risus. Nulla maximus dolor mattis, posuere lacus sit amet, facilisis lacus. Duis maximus.",
-        "liveVersionLink": ["See Live", "www.google.com"],
-        "linkToSource": ["See Source", "www.google.com"]
+        "liveVersionLink": "https://gjuliao.github.io/myproject/",
+        "linkToSource": "https://github.com/gjuliao/myproject"
     },
     {   
         "id": 3,
         "name": "Gym Fit",
         "projectClient": "Canopy",
         "projectInfo": ["Back End Dev", 2015],
-        "image": "Assets/mobile_Snapshoot_1.png",
+        "image": "Assets/Desktop/Availability.png",
         "technologies": ["html", "css", "javaScript"],
         "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex nulla, convallis vel purus at, aliquet eleifend risus. Nulla maximus dolor mattis, posuere lacus sit amet, facilisis lacus. Duis maximus.",
-        "liveVersionLink": ["See Live", "www.google.com"],
-        "linkToSource": ["See Source", "www.google.com"]
+        "liveVersionLink": "https://gjuliao.github.io/myproject/",
+        "linkToSource": "https://github.com/gjuliao/myproject"
     },
     {
         "id": 4,
         "name": "Professional Art",
         "projectClient": "Canopy",
         "projectInfo": ["Back End Dev", 2015],
-        "image": "Assets/mobile_Snapshoot_1.png",
+        "image": "Assets/Desktop/Nature.png",
         "technologies": ["html", "css", "javaScript"],
         "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex nulla, convallis vel purus at, aliquet eleifend risus. Nulla maximus dolor mattis, posuere lacus sit amet, facilisis lacus. Duis maximus.",
-        "liveVersionLink": ["See Live", "www.google.com"],
-        "linkToSource": ["See Source", "www.google.com"]
+        "liveVersionLink": "https://gjuliao.github.io/myproject/",
+        "linkToSource": "https://github.com/gjuliao/myproject"
     }
 ]
