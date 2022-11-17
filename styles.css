@@ -590,7 +590,7 @@ textarea::placeholder {
 .project_overlay_btn_close {
   font-size: 1em;
   margin-top: 3%;
-  margin-left: 85%;
+  margin-left: 98%;
   background-color: white;
   color: #396df2;
   border: none;
@@ -645,7 +645,8 @@ textarea::placeholder {
 }
 
 .overlay_btn img {
-  width: 10%;
+  width: 20%;
+  margin-bottom: -5%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -772,7 +773,8 @@ textarea::placeholder {
   }
 
   .overlay_btn img {
-    width: 10%;
+    width: 20%;
+    margin-bottom: -5%;
   }
 
   .language-list-header li img {
@@ -877,8 +879,6 @@ textarea::placeholder {
     width: 100%;
     margin: auto;
     grid-area: img;
-    max-width: 600px;
-    margin-left: 15%;
   }
 
   .project_body_overlay {
@@ -911,7 +911,7 @@ textarea::placeholder {
 
   .project_overlay_btn_close {
     font-size: 1em;
-    margin-left: 85%;
+    margin-left: 98%;
   }
 
   .project_tech_overlay {
@@ -946,8 +946,8 @@ textarea::placeholder {
   }
 
   .overlay_btn {
-    font-size: 0.7em;
-    width: 45%;
+    font-size: 0.6em;
+    width: 50%;
   }
 
   .btn_flex_overlay {
