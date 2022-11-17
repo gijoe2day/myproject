@@ -1,7 +1,7 @@
 [
     {
         "id": 0,
-        "name": "Multi Post Story",
+        "name": "Tonic Portfolio",
         "projectClient": "Canopy",
         "projectInfo": ["Front End Dev", 2022],
         "image": "Assets/Desktop/Tonic_Portfolio.png",
@@ -12,7 +12,7 @@
     },
     {
         "id": 1,
-        "name": "Avocado",
+        "name": "Professional Art",
         "projectClient": "Canopy",
         "projectInfo": ["Back End Dev", 2015],
         "image": "Assets/Desktop/Professional_art.png",
@@ -23,7 +23,7 @@
     },
     {   
         "id": 2,
-        "name": "Gym Fit",
+        "name": "Availability",
         "projectClient": "Canopy",
         "projectInfo": ["Back End Dev", 2015],
         "image": "Assets/Desktop/Availability.png",
@@ -34,7 +34,7 @@
     },
     {
         "id": 3,
-        "name": "Professional Art",
+        "name": "Nature",
         "projectClient": "Canopy",
         "projectInfo": ["Back End Dev", 2015],
         "image": "Assets/Desktop/Nature.png",

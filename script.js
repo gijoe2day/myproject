@@ -28,12 +28,11 @@ function getCards() {
 
   outputMain += `
 
-       <div class="work-container">
+       <div class="work-container card_${a.id}">
+    
                  <div class="work-container-background">
-                     <div class="work-image-container">
-
+                     <div id="${a.id}" class="work-image-container">
                           <img src="${a.image}" alt="Main image of professional with orange background"> 
-
                      </div>
     
                      <div class="work-text-container">
@@ -61,17 +60,17 @@ function getCards() {
                              <button onclick="getProject(${a.id})" class="button-work-project">SEE PROJECT</button>
                          </div>
                      </div>
-
                  </div>
-
              </div>`;
           
-          document.getElementById("outputMain").innerHTML = outputMain;
-   
+          document.getElementById("outputMain").innerHTML = outputMain;   
         });
+
+        document.getElementById("1").style.order = 1;
+        document.getElementById("3").style.order = 1;
+        
  }
 )}
-
 
 /* Dynamic Popup Project Functions */
 function getProject(a) {
@@ -118,7 +117,6 @@ fetch("projects.json")
   document.getElementById("output").innerHTML = output;
 });
 }
-
 
 window.addEventListener('load', getCards());
 
