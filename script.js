@@ -118,5 +118,70 @@ fetch("projects.json")
 });
 }
 
+/* Form Validation */
+document.getElementById('contact-form').addEventListener('submit', (e) => {
+  const emailInput = document.getElementById('email-address');
+  const emailRegEx = /^[a-z0-9_.]+@[a-z0-9_.]+\.[a-z0-9_.]+/;
+  if (!emailRegEx.test(emailInput.value)) {
+    document.getElementById('error').innerText = "Note: Email Validation Error. Email must be in lower case Only.";
+    e.preventDefault();
+  } else {
+    form.submit();
+  }
+});
+
+// const form = document.getElementById("contact-form");
+// //const email = document.getElementById("email-address");
+// const email_invalid = "Email MUST be in lower case only!"
+
+// function validateEmail(email){
+//   if(email.value.trim() === email.value.trim().toLowerCase()) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   if (!validateEmail(form.elements["contact-email"])){
+//     return email_invalid;
+//   } else {
+//     form.submit();
+//   }
+// })
+
+// function showMessage(error, type){
+//   const errorMsg = document.getElementById("error");
+//   errorMsg.className = type ? "success" : "error";
+//   errorMsg.innerText = "Email must be in lower case only";
+//   return type;
+// }
+
+// function showError(emailInput, errorMsg){
+//   return showMessage(emailInput, errorMsg, false)
+// }
+
+// function validateEmail(emailInput, errorMsg) {
+//   const emailRegex = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+//   const inputEmail = email.value.trim();
+
+//   if (!emailRegex.test(inputEmail)){
+//     return showError(emailInput, errorMsg)
+//   }
+//   return true;
+// }
+
+// form.addEventListener("submit", (e) => {
+//     e.preventDefault();
+//     const emailValid = validateEmail(form.elements.email, email_invalid)
+
+//     if (emailValid){
+//       form.submit();
+//   }
+// })
+
+
+
 window.addEventListener('load', getCards());
 
