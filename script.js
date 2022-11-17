@@ -1,4 +1,3 @@
-
 /* Homepage Functions */
 function on() {
   document.getElementById("overlay").style.display = "block";
@@ -17,15 +16,14 @@ function projectOff() {
   document.getElementById("output").style.display = "none";
 }
 
-document.getElementById("projectOne").addEventListener("click", getProject(0));
-document.getElementById("projectTwo").addEventListener("click", getProject(1));
-document.getElementById("projectThree").addEventListener("click", getProject(2));
-document.getElementById("projectFour").addEventListener("click", getProject(3));
+document.getElementById("projectOne").addEventListener("click", () => getProject(0));
+document.getElementById("projectTwo").addEventListener("click", () => getProject(1));
+document.getElementById("projectThree").addEventListener("click",() => getProject(2));
+document.getElementById("projectFour").addEventListener("click", () => getProject(3));
 
 
 
 function getProject(a) {
-  console.log(123);
   projectOn();
 fetch("projects.json")
 .then((res) => res.json())
@@ -69,4 +67,3 @@ fetch("projects.json")
   document.getElementById("output").innerHTML = output;
 });
 }
-
