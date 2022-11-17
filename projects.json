@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "name": "Multi Post Story",
         "projectClient": "Canopy",
         "projectInfo": ["Front End Dev", 2022],
@@ -11,7 +11,7 @@
         "linkToSource": "https://github.com/gjuliao/myproject"
     },
     {
-        "id": 2,
+        "id": 1,
         "name": "Avocado",
         "projectClient": "Canopy",
         "projectInfo": ["Back End Dev", 2015],
@@ -22,7 +22,7 @@
         "linkToSource": "https://github.com/gjuliao/myproject"
     },
     {   
-        "id": 3,
+        "id": 2,
         "name": "Gym Fit",
         "projectClient": "Canopy",
         "projectInfo": ["Back End Dev", 2015],
@@ -33,7 +33,7 @@
         "linkToSource": "https://github.com/gjuliao/myproject"
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Professional Art",
         "projectClient": "Canopy",
         "projectInfo": ["Back End Dev", 2015],

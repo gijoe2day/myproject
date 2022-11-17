@@ -7,7 +7,7 @@ function off() {
   document.getElementById("overlay").style.display = "none";
 }
 
-/* Dynamic Project Functions */
+/* Show & Close Popup Project */
 function projectOn() {
   document.getElementById("output").style.display = "block";
 }
@@ -16,13 +16,64 @@ function projectOff() {
   document.getElementById("output").style.display = "none";
 }
 
-document.getElementById("projectOne").addEventListener("click", () => getProject(0));
-document.getElementById("projectTwo").addEventListener("click", () => getProject(1));
-document.getElementById("projectThree").addEventListener("click",() => getProject(2));
-document.getElementById("projectFour").addEventListener("click", () => getProject(3));
+/* Dynamic html Project Functions */
+function getCards() {
+
+  let outputMain = "";
+
+ fetch("projects.json")
+ .then((res) => res.json())
+ .then((data) => {
+   data.forEach(a => {
+
+  outputMain += `
+
+       <div class="work-container">
+                 <div class="work-container-background">
+                     <div class="work-image-container">
+
+                          <img src="${a.image}" alt="Main image of professional with orange background"> 
+
+                     </div>
+    
+                     <div class="work-text-container">
+                         <div class="card-title">
+                              <h2>${a.name}</h2>
+                             <div class="work-complementary-text">
+                                 <ul class="work-complementary-list">
+                                      <li class="canopy">${a.projectClient}</li>
+                                     <li class="canopy-complement"><img src="./Assets/Counter.png" alt="">${a.projectInfo[0]}</li>
+                                     <li class="canopy-complement"><img src="./Assets/Counter.png" alt="">${a.projectInfo[1]}</li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div class="card-body">
+                              <p>${a.mainText}</p>
+                             <div>
+                                 <ul class="buttons-work-container">
+                                     <li class="btn-work-style">${a.technologies[0]}</li>
+                                     <li class="btn-work-style">${a.technologies[1]}</li>
+                                    <li class="btn-work-style">${a.technologies[2]}</li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div class="card-button">
+                             <button onclick="getProject(${a.id})" class="button-work-project">SEE PROJECT</button>
+                         </div>
+                     </div>
+
+                 </div>
+
+             </div>`;
+          
+          document.getElementById("outputMain").innerHTML = outputMain;
+   
+        });
+ }
+)}
 
 
-
+/* Dynamic Popup Project Functions */
 function getProject(a) {
   projectOn();
 fetch("projects.json")
@@ -67,3 +118,7 @@ fetch("projects.json")
   document.getElementById("output").innerHTML = output;
 });
 }
+
+
+window.addEventListener('load', getCards());
+
