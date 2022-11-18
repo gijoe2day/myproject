@@ -131,8 +131,6 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
 });
 
 /* Local Storage */
-
-
   function saveData(){
 
     let nameLocal = document.getElementById("full-name").value;
@@ -146,24 +144,21 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
     }
 
     window.localStorage.setItem("personData", JSON.stringify(personData));
-
-    /* Preview saved item when page Loads */
-  window.addEventListener("load", () => {
-
-    let personObj = window.localStorage.getItem("personData");
- 
-   
-    if(localStorage.getItem("personObj")){
-      document.getElementById("full-name").value = personObj.name;
-      emailLocal = "email";
-      message = personObj.message;
-     }
-     personObj = JSON.parse(personObj);
-
-   }) 
-  
+    
   }
+  
+  /* Preview saved item in html when page Loads */
+window.addEventListener("load", () => {
 
+  let personObj = window.localStorage.getItem("personData");
+
+  personObj = JSON.parse(personObj);
+
+  document.getElementById("full-name").value = personObj.name;
+  document.getElementById("email-address").value = personObj.email;
+  document.getElementById("message").value = personObj.message;
+
+ }) 
 
 
 
