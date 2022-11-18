@@ -137,13 +137,13 @@ function saveData(){
   let emailLocal = document.getElementById("email-address").value;
   let bodyLocal = document.getElementById("message").value;
 
-  const personData = {
+  const pData = {
     "name" : nameLocal,
     "email" : emailLocal,
     "bodyLocal" : bodyLocal,
   }
 
-  window.localStorage.setItem("personData", JSON.stringify(personData));
+  window.localStorage.setItem("pData", JSON.stringify(pData));
 }
 
 
