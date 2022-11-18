@@ -1,23 +1,18 @@
-# myproject
-
----
+# Project Title
 
 Myproject is a demo of webpage catalog using html and css. Is built with mobile first best practices.
 
-To check online visit: [My Project](https://gjuliao.github.io/myproject/)
+## Demo
 
-To review loom introductory video of project: [Loom Video My Project](https://www.loom.com/share/8ec0b8497a9b4e9597cd2ea703445c74)
+To check online visit the following link: [My Project](https://gjuliao.github.io/myproject/)
 
-**Built with**
+To review loom introductory video of project click the following link: [Loom Video My Project](https://www.loom.com/share/8ec0b8497a9b4e9597cd2ea703445c74)
 
----
+## Tech Stack
 
-- Html & Css
-- Visual Studio Code
+**Languages:** Html, Css, Javascript
 
-**Getting Started**
-
----
+## Installation
 
 To get a local copy up and running follow these simple example steps.
 
@@ -27,42 +22,42 @@ To get a local copy up and running follow these simple example steps.
 - Git
 - Github Account
 
-**Install**
+```bash
+  Go to this repo and copy the project link: (https://github.com/gijoe2day/myproject)
+  Open your terminal and clone the repo with this command "git clone" (https://github.com/gijoe2day/myproject)
+  Now, you have a copy
+  cd my-project
+  To open it, make double-click on the HTML file.
+```
 
-- Go to this repo and copy the project link: (https://github.com/gijoe2day/myproject)
-- Open your terminal and clone the repo with this command "git clone" (https://github.com/gijoe2day/myproject)
-- Now, you have a copy
-- To open it, make double-click on the HTML file.
+## Authors
 
-**Author\***
+- [@gjuliao](https://www.github.com/gjuliao)
 
----
+## 🚀 About Me
 
-- Name: Giovanni J
-- Github: @gijoe2day
+I'm a full stack developer with experience in React, Ruby, RubyOnRails.
 
-**Contributing**
+## Contributing
 
----
+Contributions are always welcome!
 
-Contributions, issues, and feature requests are welcome!
-Feel free to check the (https://github.com/gijoe2day/myproject/issues)
+See `contributing.md` for ways to get started.
 
-**Show your support**
+Please adhere to this project's `code of conduct`.
 
----
+Feel free to check the following link for suggesting new [Issues](https://github.com/gijoe2day/myproject/issues).
 
-Give us a 5star review!
+## Badges
 
-**Acknowledgments**
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
----
+## Acknowledgements
 
-- Hat tip to anyone whose code was used
-- Inspiration
+- [Microverse](https://www.microverse.com)
 
-**License**
+## License
 
----
-
-This project is MIT licensed. # myproject
+[MIT](https://choosealicense.com/licenses/mit/)

@@ -130,6 +130,24 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
   }
 });
 
+/* Local Storage */
+function saveData(){
+
+  let nameLocal = document.getElementById("full-name").value;
+  let emailLocal = document.getElementById("email-address").value;
+  let bodyLocal = document.getElementById("message").value;
+
+  const personData = {
+    "name" : nameLocal,
+    "email" : emailLocal,
+    "bodyLocal" : bodyLocal,
+  }
+
+  window.localStorage.setItem("personData", JSON.stringify(personData));
+}
+
+
+
 
 
 window.addEventListener('load', getCards());
