@@ -133,32 +133,38 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
 /* Local Storage */
 
 
+  function saveData(){
 
-function saveData(){
+    let nameLocal = document.getElementById("full-name").value;
+    let emailLocal = document.getElementById("email-address").value;
+    let message = document.getElementById("message").value;
 
-  let nameLocal = document.getElementById("full-name").value;
-  let emailLocal = document.getElementById("email-address").value;
-  let message = document.getElementById("message").value;
+    const personData = {
+      "name" : nameLocal,
+      "email" : emailLocal,
+      "message" : message
+    }
 
-  const personData = {
-    "name" : nameLocal,
-    "email" : emailLocal,
-    "message" : message
+    window.localStorage.setItem("personData", JSON.stringify(personData));
+
+    /* Preview saved item when page Loads */
+  window.addEventListener("load", () => {
+
+    let personObj = window.localStorage.getItem("personData");
+ 
+   
+    if(localStorage.getItem("personObj")){
+      document.getElementById("full-name").value = personObj.name;
+      emailLocal = "email";
+      message = personObj.message;
+     }
+     personObj = JSON.parse(personObj);
+
+   }) 
+  
   }
 
-  window.localStorage.setItem("personData", JSON.stringify(personData));
 
-  /* Preview saved item when page Loads */
-window.addEventListener("load", () => {
-
-  if(localStorage.getItem("personData")){
-    document.getElementById("full-name").value = personData.name;
-    document.getElementById("email-address").value = personData.email;
-    document.getElementById("message").value = personData.message;
-  }
-})
-
-}
 
 
 
