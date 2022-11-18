@@ -131,20 +131,37 @@ document.getElementById('contact-form').addEventListener('submit', (e) => {
 });
 
 /* Local Storage */
+
+
+
 function saveData(){
 
   let nameLocal = document.getElementById("full-name").value;
   let emailLocal = document.getElementById("email-address").value;
-  let bodyLocal = document.getElementById("message").value;
+  let message = document.getElementById("message").value;
 
-  const pData = {
+  const personData = {
     "name" : nameLocal,
     "email" : emailLocal,
-    "bodyLocal" : bodyLocal,
+    "message" : message
   }
 
-  window.localStorage.setItem("pData", JSON.stringify(pData));
+  window.localStorage.setItem("personData", JSON.stringify(personData));
+
+  /* Preview saved item when page Loads */
+window.addEventListener("load", () => {
+
+  if(localStorage.getItem("personData")){
+    document.getElementById("full-name").value = personData.name;
+    document.getElementById("email-address").value = personData.email;
+    document.getElementById("message").value = personData.message;
+  }
+})
+
 }
+
+
+
 
 
 
